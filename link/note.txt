@@ -1,0 +1,13 @@
+changes in mongodb database...............
+
+Folder :
+model -> usermodel.js
+controller -> usercontroller.js
+
+teminal:
+npx express-generator
+npm start
+http-erros (this error can be inmplement in your terminal)
+(3000) default portnumber in database
+
+
