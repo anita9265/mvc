@@ -1,5 +1,5 @@
 const app = require('../app');
-// var user = require('../model/usermodel');
+var user = require('../model/usermodel');
 // var localstorage = require('local-storage');
 login_status=0;
 exports.insert=async(req,res)=>{
