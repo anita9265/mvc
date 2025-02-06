@@ -1,6 +1,6 @@
 const app = require('../app');
-var user = require('../model/usermodel');
-var localstorage = require('local-storage');
+// var user = require('../model/usermodel');
+// var localstorage = require('local-storage');
 login_status=0;
 exports.insert=async(req,res)=>{
 
@@ -67,8 +67,7 @@ exports.login = async(req,res)=>{
         {
             if(data[0].password==req.body.password)
             {
-                localStorage.setItem('email' ,'aaaa@gmail.com')
-                console.log(localStorage.getItem('email'))
+               
                
                 login_status=1;
                 res.status(200).json({
