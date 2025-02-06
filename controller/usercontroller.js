@@ -92,5 +92,5 @@ exports.login = async(req,res)=>{
             status:"user already login"
         }) 
     }
-    console.log('hello');
+    // console.log('hello');
 }
